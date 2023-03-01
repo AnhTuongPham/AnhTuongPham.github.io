@@ -1,0 +1,46 @@
+/* <style> */
+      body {
+        background: chocolate;
+        margin: 0;
+      }
+
+      #backgroundImage {
+        border: none;
+        height: 100%;
+        pointer-events: none;
+        position: fixed;
+        top: 0;
+        visibility: hidden;
+        width: 100%;
+      }
+
+      [show-background-image] #backgroundImage {
+        visibility: visible;
+      }
+      #subheadlines {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding:50px;
+      }
+  #subheadlines2 {
+  text-align: center;
+  color: rgb(2, 2, 2);
+  padding: 2px;
+  background-color: rgb(87, 88, 88);
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  }
+  #subheadlines3 {
+    padding: 100px;
+    border-style: dotted;
+    border-color: black
+  }
+  /* #subheadlines333 {
+    text-align: center;
+    color: rgb(2, 2, 2);
+    padding: 220px;
+    background-color: rgb(87, 88, 88);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    } */
+    /* </style> */
