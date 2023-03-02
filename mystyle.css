@@ -1,47 +1,39 @@
-<!doctype html>
-<html dir="ltr" lang="en">
+/* <style> */
+      body {
+        background: chocolate;
+        margin: 0;
+      }
 
-<head>
-    <meta charset="utf-8">
-    <title>New Tab</title>
-    <link rel="stylesheet" href="mystyle.css">
+      #backgroundImage {
+        border: none;
+        height: 100%;
+        pointer-events: none;
+        position: fixed;
+        top: 0;
+        visibility: hidden;
+        width: 100%;
+      }
 
-</head>
-
-<h1 style=color:white;>
-    <center> Da Nang Plan
-</h1>
-
-<body>
-
-    <div id='subheadlines'>
-        <h2>
-            <center> Flight info
-        </h2>
-        <p>
-            <center>
-                Vietjet <br>
-                Lo 49 An Don 6, Da Nang, Vietnam </br>
-                Deluxe King Suite x 4 nights
-        </p>
-    </div>
-    <div id='subheadlines2'>
-        <h2>
-            <center> Accommodation
-        </h2>
-        <p>
-            <center>
-                VYAN Beach House (1,843,200 VND) <br>
-                Lo 49 An Don 6, Da Nang, Vietnam </br>
-                Deluxe King Suite x 4 nights
-        </p>
-    </div>
-    <div id='subheadlines3'>
-        <h2>
-            <center> This is the border thing
-        </h2>
-
-    </div>
-    
-
-</body>
+      [show-background-image] #backgroundImage {
+        visibility: visible;
+      }
+      #subheadlines {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding:50px;
+      }
+  #subheadlines2 {
+  text-align: center;
+  color: rgb(2, 2, 2);
+  padding: 2px;
+  background-color: rgb(87, 88, 88);
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  }
+  #subheadlines3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 100px;
+    border-style: dotted;
+    border-color: black
+  }
