@@ -1,6 +1,6 @@
-/* <style> */
+
       body {
-        background: chocolate;
+        background: White;
         margin: 0;
       }
 
@@ -17,23 +17,30 @@
       [show-background-image] #backgroundImage {
         visibility: visible;
       }
-      #subheadlines {
-  text-align: center;
-  color: rgb(0, 0, 0);
-  padding:50px;
+      #header {
+        text-align:center;
+        text-transform: uppercase;
       }
-  #subheadlines2 {
-  text-align: center;
-  color: rgb(2, 2, 2);
+
+      #subheadlines {
+  text-align: left;
+  color: black;
+  padding:2px;
+      }
+
+      #subheadlines2 {
+  text-align: left;
+  color: black;
   padding: 2px;
-  background-color: rgb(87, 88, 88);
-  border-style: solid;
-  border-color: rgb(0, 0, 0);
   }
-  #subheadlines3 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    padding: 100px;
-    border-style: dotted;
-    border-color: black
+  #button {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px;
+  
   }
+ 
+  
