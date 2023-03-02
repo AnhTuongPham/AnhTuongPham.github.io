@@ -21,17 +21,27 @@
         text-align:center;
         text-transform: uppercase;
       }
+      #img {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:60%;
+        height:350px;
+        border-radius:8px
+
+      }
 
       #subheadlines {
+  padding: left 50px;
   text-align: left;
   color: black;
-  padding:2px;
+
       }
 
       #subheadlines2 {
+  padding: left 50px;
   text-align: left;
   color: black;
-  padding: 2px;
   }
   #button {
     text-align: center;
